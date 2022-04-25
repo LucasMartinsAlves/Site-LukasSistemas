@@ -72,6 +72,10 @@ main {
 }
 
 .btn-navbar {
+    background: transparent;
+
+    border: none;
+
     display: flex;
     align-items: center;
 
@@ -178,7 +182,7 @@ main {
 
     align-items: center;
 
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
 }
 
 .support  h1{
