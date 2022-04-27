@@ -337,6 +337,8 @@ footer h2{
 
 footer a{
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 
 .copyright {
