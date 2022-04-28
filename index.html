@@ -35,17 +35,23 @@
 
     <link rel="stylesheet" href="./style.css" />
 
-    <title>Site Lukas Sistemas</title>
+    <title>Lukas Sistemas</title>
   </head>
   <body>
     <!-- HEADER -->
     <header>
-      <div class="navbar">
+      <div class="navbar" id="home">
         <span>Bem-vindo ao site da Lukas Sistemas</span>
         <div class="btn-container">
-          <button class="btn-navbar btn-home active"><a>Início</a></button>
-          <a href="#about"><button class="btn-navbar btn-about">Sobre nós</button></a>
-          <a href="#contact"><button class="btn-navbar btn-contact">Contato</button></a>
+          <a href="#home">
+            <button class="btn-navbar btn-home active">Início</button>
+          </a>
+          <a href="#about">
+            <button class="btn-navbar btn-about">Sobre nós</button>
+          </a>
+          <a href="#contact">
+            <button class="btn-navbar btn-contact">Contato</button>
+          </a>
         </div>
         <button class="btn-enter">Entrar</button>
       </div>
@@ -97,12 +103,14 @@
       </div>
       <!-- FIM SLIDER -->
 
+      <!-- ABOUT US -->
       <div class="welcome" id="about">
-        <h1>Bem-vindo ao site da site Lukas Sitemas</h1>
+        <h1>Bem-vindo ao site da Lukas Sitemas</h1>
         <span>
           Empresa que trabalha há mais de 23 anos na categoria Automação Comercial na cidade de
           Balsas/MA
         </span>
+        <!-- Card -->
         <div class="info-container">
           <div class="info-card">
             <img src="" alt="" />
@@ -113,13 +121,18 @@
             </div>
           </div>
         </div>
+        <!-- Fim Card -->
       </div>
+      <!-- FIM ABOUT US -->
+
+      <!-- SUPPORT -->
       <div class="support" id="contact">
         <h1>Suporte ao Cliente</h1>
         <span>
           Precisando de suporte, entre em contato pelos telefones abaixo ou uma mensagem no whatsapp
         </span>
       </div>
+      <!-- Card Support -->
       <div class="supporters">
         <div class="supporters-card">
           <img src="" alt="" />
@@ -142,8 +155,10 @@
           </div>
         </div>
       </div>
-      <div class="Schedule">
-        <div class="Schedule-card">
+      <!-- Fim Card Support -->
+      <!-- Schedule -->
+      <div class="schedule">
+        <div class="schedule-card">
           <h1>Horário de Atendimento</h1>
           <div>
             <span>Segunda a sexta: </span>
@@ -156,13 +171,16 @@
           </div>
         </div>
       </div>
+      <!-- Fim Schedule -->
+      <!-- FIM SUPPORT -->
     </main>
     <footer>
+      <!-- FOOTER -->
       <div class="footer-container">
         <div class="logo"><img src="./assets/logo.png" alt="Logo Lukas Sistemas" /></div>
         <div class="inicio">
           <h2>Início</h2>
-          <a class="inicio">Home</a>
+          <a class="inicio" href="#home">Home</a>
         </div>
         <div class="sobre">
           <h2>Sobre-nós</h2>
@@ -178,6 +196,7 @@
         <i class="fa-regular fa-copyright"></i>
         <span>2022 copyright - LukasSistemas</span>
       </div>
+      <!-- FIM FOOTER -->
     </footer>
   </body>
 

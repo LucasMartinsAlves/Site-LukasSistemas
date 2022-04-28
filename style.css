@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    width: auto;
+    height: auto;
 }
 
 body {
@@ -163,6 +166,7 @@ main {
 }
 /*FIM CSS SLIDER */
 
+/* CSS ABOUT US */
 .welcome {
     display: flex;
     flex-direction: column;
@@ -214,7 +218,9 @@ main {
 .info span {
     font-size: 14pt;
 }
+/* FIM CSS ABOUT US */
 
+/* CSS SUPPORT */
 .support {
     display: flex;
     flex-direction: column;
@@ -267,7 +273,7 @@ main {
     gap: 0.5rem;
 }
 
-.Schedule {
+.schedule {
     display: flex;
 
     padding: 0 6rem;
@@ -275,7 +281,7 @@ main {
     margin-bottom: 6rem;
 }
 
-.Schedule-card {
+.schedule-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -292,7 +298,9 @@ main {
 
     gap: 0.5rem;
 }
+/* FIM CSS SUPPORT */
 
+/* CSS FOOTER */
 footer {
     display: flex;
     flex-direction: column;
@@ -355,3 +363,4 @@ footer a{
 .copyright i {
     margin-right: 0.5rem;
 }
+/* FIM CSS FOOTER */
